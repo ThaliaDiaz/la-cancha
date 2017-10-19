@@ -1,0 +1,61 @@
+.estadio{
+	background-color: rgb(85, 175, 85);
+	width:820px;
+	height:420px;
+	position:relative;
+	}
+	.campo{	
+	width:800px;
+	height:400px;
+	position:absolute;
+	border: 4px solid white;	
+	display: flex;
+	justify-content: center;
+	margin:5px;	
+	}
+	.areaI, .areaD{
+	width: 80px;
+	height: 160px;	
+	border: 4px solid white;
+	position:relative;
+	}
+	.areaI{
+	float:left;
+	margin: auto 0;
+	left:-4px;
+	}	
+	.centro{
+	width: 160px;
+	height: 160px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;	
+	border: 4px solid white;
+	margin: auto auto;
+	}
+	.areaD{
+	float:right;
+	margin: auto 0;
+	right:-4px;
+	}
+	.pelotita{
+	width: 10px;
+	height: 10px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	border: 2px ridge rgb(242, 246, 247);
+	background-color:rgb(242, 246, 247);
+	position:relative;
+	}
+	#pelotita1{
+	top: 129px;
+	left:79px;	
+	}
+	#pelotita2{
+	top: 70px;
+	left:400px;	
+	}
+	#pelotita3{
+	top: 230px;
+	left:710px;	
+	}
